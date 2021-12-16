@@ -35,6 +35,6 @@ Want to get a theme that goes with these colors? Go to [`https://duckduckgo.com/
 
 ## Credits
 
-* **`Tokyo Night Theme: `** [`https://github.com/enkia/tokyo-night-vscode-theme`](https://github.com/enkia/tokyo-night-vscode-theme) 
-* **`Forked from Nightfox: `**[`https://github.com/snthcy/nightfox`](https://github.com/snthcy/nightfox)  
-* **`Nightfox is based off of:`** [`https://github.com/datguypiko/Firefox-Mod-Blur`](https://github.com/datguypiko/Firefox-Mod-Blur)
+* **Tokyo Night Theme:** [`https://github.com/enkia/tokyo-night-vscode-theme`](https://github.com/enkia/tokyo-night-vscode-theme) 
+* **Forked from Nightfox:** [`https://github.com/snthcy/nightfox`](https://github.com/snthcy/nightfox)  
+* **Nightfox is based off of:** [`https://github.com/datguypiko/Firefox-Mod-Blur`](https://github.com/datguypiko/Firefox-Mod-Blur)
