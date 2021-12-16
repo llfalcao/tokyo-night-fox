@@ -1,8 +1,11 @@
 * {
-  --color1: #13161d;
-  --color2: #1f2430;
-  --color3: #2b3242;
-  --color4: #384055;
+  --color1: #16161e;
+  --color2: #1a1b26;
+  --color3: #1a1b26;
+  --color4: #24283b;
+  font-family: 'JetBrainsMono Nerd Font';
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* ----- Remove tab bar spacer ----- */
@@ -44,7 +47,9 @@
 
 }
 
+/* PUSH DOWN */
 #navigator-toolbox {
+  margin-top: 5px;
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
@@ -52,8 +57,8 @@
 /* height fixes */
 
 /* tabs height */
-:root {--tab-min-height: 28px !important;}
-:root #tabbrowser-tabs {--tab-min-height: 28px !important;}
+:root {--tab-min-height: 36px !important;}
+:root #tabbrowser-tabs {--tab-min-height: 36px !important;}
 
 /* menu bar height */
 #toolbar-menubar {
@@ -70,13 +75,13 @@
 
 /* non active tabs have darker text */
 .tabbrowser-tab:not([visuallyselected="true"]):not([multiselected]):not(:hover) {
-  color: #ffffffa8 !important;
+  color: #565f89 !important;
 }
 
 /* icons */
-#PanelUI-menu-button {
+/* #PanelUI-menu-button {
   list-style-image: url(image/firefox.svg) !important;
-}
+} */
 
 #back-button > .toolbarbutton-icon {
    border: none !important;
@@ -170,14 +175,17 @@
   border-color: transparent;
 }
 #urlbar {
-  border: 0 !important;
-  border-radius: 10px 10px 10px 10px !important;
-  background-color: var(--color3);
+  border: 2px solid #24283b !important;
+  border-radius: 6px !important;
+  background-color: #16161e;
+  font-family: 'JetBrainsMono Nerd Font';
+
 }
 
 #urlbar {
-  box-shadow: none !important;
+  box-shadow:	0px 0px 20px #1a1b26 !important;
 }
+
 #urlbar[breakout] {
   height: auto !important;
 }
@@ -189,7 +197,7 @@
 
 /* megabar */
 #urlbar[breakout][breakout-extend][open] {
-  background-color: #1f2430 !important;
+  background-color: #16161e !important;
  -webkit-backdrop-filter: blur(32px) !important;
   backdrop-filter: blur(32px) !important;
 }
@@ -231,9 +239,9 @@ toolbar
   #new-tab-button:not([disabled="true"]):not([checked]):not([open]):not(:active):hover
   > .toolbarbutton-icon {
   border: 0 !important;
-  border-radius: 20px 20px 20px 20px !important;
+  border-radius: 6px !important;
   background-image: none !important;
-  background-color: #404040d9 !important;
+  background-color: #1a1b26 !important;
 }
 
 toolbar
@@ -243,14 +251,14 @@ toolbar
   #new-tab-button:not([disabled="true"]):-moz-any([open], [checked], :hover:active)
   > .toolbarbutton-icon {
   border: 0 !important;
-  border-radius: 20px 20px 20px 20px !important;
+  border-radius: 6px !important;
   background-image: none !important;
-  background-color: rgb(0, 0, 0) !important;
+  background-color: #24283b !important;
 }
 
 /* main bar */
 #navigator-toolbox {
-  background-color: #1f2430 !important;
+  background-color: #16161e !important;
   --tabs-border-color: none !important;
   --my-tab-min-width: 100px !important; 
   --tabs-navbar-shadow-size: 0px !important;
@@ -263,12 +271,12 @@ toolbar
 /* remove fill when loading on the tab which isnt formated for different border radius */
 #tabbrowser-tabs {
   --tab-loading-fill: transparent !important;
-  margin-left: 2px !important; 
+  margin-left: 10px !important; 
 }
 
 /* width of the tabs. */
 .tabbrowser-tab[fadein]:not([pinned]) {
-  max-width: 135px !important;
+  max-width: 200px !important;
   min-width: var(--my-tab-min-width) !important;
 }
 
@@ -279,8 +287,8 @@ toolbar
 
 /* fix the height of a tab because if you change --tab-min-height it doesnt work for fullcreen */
 #TabsToolbar {
-  padding-top: 0px !important;
-  padding-bottom: 2px !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
 }
 
 /* remove line between the tabs / seperators */
@@ -291,17 +299,18 @@ toolbar
 
 /* select tabs */
 .tabbrowser-tab .tab-background[selected="true"] {
-  border: 0 !important;
-  border-radius: 10px 10px 10px 10px !important;
+  border: 2px solid #24283b !important;
+  border-radius: 6px !important;
   background-image: none !important;
-  background-color: rgba(0,0,0,0.35) !important;
+  background-color: #16161e !important;
+  box-shadow:	0px 0px 20px #1a1b26 !important;
 }
 
 .tabbrowser-tab .tab-background:not([selected]) {
   border: 0 !important;
-  border-radius: 10px 10px 10px 10px !important;
+  border-radius: 6px !important;
   background-image: none !important;
-  background-color: var(--color3) !important;
+  background-color: #16161e !important;
 }
 
 /* tabs on hover */
@@ -312,7 +321,7 @@ toolbar
   border: 0 !important;
   border-radius: 10px 10px 10px 10px !important;
   background-image: none !important;
-  background-color: var(--color3) !important;
+  background-color: #1a1b26 !important;
 }
 
 /* multiselect tabs on hover */
@@ -320,7 +329,7 @@ toolbar
   border: 0 !important;
   border-radius: 10px 10px 10px 10px !important;
   background-image: none !important;
-  background-color: var(--color3) !important;
+  background-color: #24283b !important;
 }
 /* fixing multiselect */
 .tab-background[multiselected="true"]:not([selected="true"])
@@ -362,18 +371,18 @@ toolbar
 
 /* to use blur enable layout.css.backdrop-filter.enabled */
 #PersonalToolbar {
-  background-color: #1f2430 !important;
+  background-color: #16161e !important;
   -webkit-backdrop-filter: blur(32px) !important;
   backdrop-filter: blur(32px) !important;
 }
 
 
 :root:-moz-lwtheme-brighttext {
-	--arrowpanel-background:  var(--color3) !important;
-	--panel-separator-zap-gradient: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(193,118,40,1) 39%, rgba(52,12,48,1) 100%) !important;
-	--button-hover-bgcolor: rgba(159, 159, 159, 0.35) !important;
-	--button-active-bgcolor: rgba(113, 113, 113, 0.35) !important;
-	--button-bgcolor: rgba(117, 117, 117, 0.9) !important;
+	--arrowpanel-background:  #16161e !important;
+	--panel-separator-zap-gradient: linear-gradient(90deg, #7aa2f7 0%, #7aa2f7 39%, #16161e 100%) !important;
+	--button-hover-bgcolor: #1a1b26 !important;
+	--button-active-bgcolor: #24283b !important;
+	--button-bgcolor: #1a1b26 !important;
 	--toolbarbutton-icon-fill-opacity: 0.8 !important;
 }
 
@@ -563,3 +572,4 @@ toolbar
 #TabsToolbar #window-controls #restore-button:hover {
     list-style-image: url(window/maximize-restore.svg) !important;
 }
+
