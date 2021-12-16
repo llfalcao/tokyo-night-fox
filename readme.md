@@ -23,6 +23,9 @@ For the blur style to work enable `layout.css.backdrop-filter.enabled` in `about
 
 ![spacings](./assets/spacings.png)
 
+## Note:
+I highly recommend installing this firefox theme: [`https://addons.mozilla.org/en-US/firefox/addon/tokyo-night-theme/`](https://addons.mozilla.org/en-US/firefox/addon/tokyo-night-theme/) and the JetBrains Mono Nerd font (`yay -S nerd-fonts-jetbrains-mono` if you are on Arch-based system) 
+
  ## DuckDuckGo
 ![ddg-theme](./assets/ddg2.png)
 
