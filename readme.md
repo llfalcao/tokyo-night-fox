@@ -3,9 +3,7 @@
 
 `Firefox v95.0` | [`Installation`](https://github.com/rototrash/tokyo-night-fox#installation)
 
-![preview1](./assets/screenshot.png)
-![preview2](./assets/screenshot2.png)
-![preview3](./assets/screenshot3.png)
+![preview](./assets/preview.png)
 
 </div>
 
@@ -26,8 +24,9 @@ For the blur style to work enable `layout.css.backdrop-filter.enabled` in `about
 ![spacings](./assets/spacings.png)
 
  ## DuckDuckGo
+![ddg-theme](./assets/ddg2.png)
 
-Want to get a theme that goes with these colors? Go to [`https://duckduckgo.com/settings#theme`](`https://duckduckgo.com/settings#theme`) and enter the passphrase **`tokyo-night`**.
+Want to get this DuckDuckGo theme? Go to [`https://duckduckgo.com/settings#theme`](`https://duckduckgo.com/settings#theme`) and enter the passphrase **`tokyo-night`**.
 
 ![ddg](./assets/ddg.png)
 
@@ -35,6 +34,6 @@ Want to get a theme that goes with these colors? Go to [`https://duckduckgo.com/
 
 ## Credits
 
-* **Tokyo Night Theme:** [`https://github.com/enkia/tokyo-night-vscode-theme`](https://github.com/enkia/tokyo-night-vscode-theme) 
-* **Forked from Nightfox:** [`https://github.com/snthcy/nightfox`](https://github.com/snthcy/nightfox)  
-* **Nightfox is based off of:** [`https://github.com/datguypiko/Firefox-Mod-Blur`](https://github.com/datguypiko/Firefox-Mod-Blur)
+* **`Tokyo Night Theme: `** [`https://github.com/enkia/tokyo-night-vscode-theme`](https://github.com/enkia/tokyo-night-vscode-theme) 
+* **`Forked from Nightfox: `**[`https://github.com/snthcy/nightfox`](https://github.com/snthcy/nightfox)  
+* **`Nightfox is based off of:`** [`https://github.com/datguypiko/Firefox-Mod-Blur`](https://github.com/datguypiko/Firefox-Mod-Blur)
