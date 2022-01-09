@@ -1,0 +1,6 @@
+/* Remove spacing before the first tab */
+
+.titlebar-spacer[type="pre-tabs"],
+.titlebar-spacer[type="post-tabs"] {
+    width: 1px !important;
+}

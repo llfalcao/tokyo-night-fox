@@ -1,0 +1,7 @@
+
+/* Light Blue on URL Bar Selection */
+
+::-moz-selection {
+    background-color: #96ddff !important;
+    color: black !important;
+}
